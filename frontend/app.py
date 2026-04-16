@@ -187,19 +187,21 @@ if user_question := st.chat_input("Escribe tu pregunta, intenta específicar ciu
                                 st.plotly_chart(fig, use_container_width=True)
                                 
                         elif tipo_grafico == "TABLA":
-                            st.dataframe(df, use_container_width=True)
+                            if not df.empty:
+                                st.dataframe(df, use_container_width=True)
 
                         elif tipo_grafico == "NINGUNO":
                             if not df.empty:
                                 st.dataframe(df, use_container_width=True)
 
                     except Exception as e:
-                        st.dataframe(df, use_container_width=True)
+                         if not df.empty:
+                            st.dataframe(df, use_container_width=True)
 
            # if not df.empty:
             #    st.dataframe(df, use_container_width=True)
 
-            st.dataframe(df, use_container_width=True)
+            #st.dataframe(df, use_container_width=True)
             st.session_state.messages.append({"role": "assistant", "content": texto_limpio})
 
             st.session_state.history.append({
