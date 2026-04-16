@@ -102,5 +102,13 @@ streamlit run app.py
 
 
 
-Y listo, puedes hacer uso de la aplicación, si tienes algún problema en la instalación se recomienda eliminar y volver a ejecutar los pasos.                                                                                               
+Y listo, puedes hacer uso de la aplicación, si tienes algún problema en la instalación se recomienda eliminar y volver a ejecutar los pasos.
 
+## Recomendaciones
+Recomendamos utilizar preguntas específicas, siguiendo el ejemplo de las sigueintes preguntas:
+● ¿Cuáles son las 5 zonas con mayor % Lead Penetration esta semana?
+● Compara el Perfect Order entre zonas Wealthy y Non Wealthy en México
+● Muestra la evolución de Gross Profit UE en Chapinero últimas 8 semanas 
+● ¿Cuál es el promedio de Lead Penetration por país?
+● ¿Qué zonas tienen alto Lead Penetration pero bajo Perfect Order?
+● ¿Cuáles son las zonas que más crecen en órdenes en las últimas 5 semanas y que podría explicar el crecimiento? 
