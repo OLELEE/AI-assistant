@@ -1,4 +1,4 @@
-# Sistema de Análisis Inteligente para Operaciones Rappi
+# Sistema de Análisis Inteligente para Operaciones
 
 
 
